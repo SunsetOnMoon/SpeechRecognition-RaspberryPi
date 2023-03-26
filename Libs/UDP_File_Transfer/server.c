@@ -47,7 +47,7 @@ void start_server()
 
 void write_file(int sockfd, struct sockaddr_in addr)
 {
-    char *filename = "audio.wav";
+    char *filename = "server_audio.wav";
     int n;
     char buffer[DATA_SIZE];
     socklen_t addr_size;
